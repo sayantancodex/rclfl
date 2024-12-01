@@ -58,5 +58,3 @@ def predict_image(image_path):
     confidence *= 100
     return category, confidence
 
-if __name__ == "__main__":
-    app.run()
